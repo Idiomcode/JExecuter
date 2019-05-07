@@ -1,0 +1,1 @@
+javascript:(function () { var code = prompt("Code?"); var s = document.createElement('script'); s.innerHTML = `try{${code}}catch(err){alert(err)}`; s.type = 'text/javascript'; document.head.appendChild(s); })();
